@@ -3,7 +3,7 @@
 // inputEl: the element to listen on
 // keyPress: a callback for any key pressed
 // onDelete: a callback for a delete key pressed
-function watchKeys (inputEl, keyPress, onDelete) {
+export default function watchKeys (inputEl, keyPress, onDelete) {
   inputEl.addEventListener('keypress', function onKeyPress (e) {
     e.preventDefault()
     keyPress(e)
