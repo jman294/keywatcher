@@ -1,0 +1,25 @@
+{
+  "name": "keywatcher",
+  "version": "1.0.0",
+  "description": "A utility for listening on key events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jman294/keywatcher.git"
+  },
+  "keywords": [
+    "key",
+    "event",
+    "watcher",
+    "listen"
+  ],
+  "author": "Jack DuPlessis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jman294/keywatcher/issues"
+  },
+  "homepage": "https://github.com/jman294/keywatcher#readme"
+}
