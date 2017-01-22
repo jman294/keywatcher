@@ -1,6 +1,6 @@
 {
   "name": "keywatcher",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A utility for listening on key events",
   "main": "index.js",
   "scripts": {
