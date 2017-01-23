@@ -2,8 +2,10 @@
   "name": "keywatcher",
   "version": "1.1.2",
   "description": "A utility for listening on key events",
-  "main": "bundle.js",
+  "main": "lib/index.js",
   "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
@@ -14,6 +16,9 @@
     "webpack-dev-server": "^1.16.x",
     "style-loader": "^0.13.x",
     "css-loader": "^0.26.x"
+  },
+  "babel": {
+    "presets": ["es2015"]
   },
   "repository": {
     "type": "git",
